@@ -1,0 +1,135 @@
+body {
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+#topbar {
+  float:right;
+  right: 0;
+  margin: 20px 40px 10px 0px;
+  min-height: 40px;
+}
+
+#topbar a {
+  padding: 8px 8px 7px 8px;
+  text-decoration: none;
+  color: rgb(34,34,34);
+}
+
+#topbar .buttonlink {
+  background-color: rgb(66, 133, 244);
+  border-radius: 2px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  padding: 8px 13px 8px 13px;
+}
+
+#topbar .buttonlink:hover {
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+}
+
+#topbar .topslink:hover {
+  text-decoration: underline;
+}
+
+#topbar .optionlink {
+  opacity: 0.55;
+}
+#topbar .optionlink:hover {
+  opacity: 0.85;
+}
+
+#body {
+  position: absolute;
+  top: 150px;
+  width: 100%;
+  padding-bottom: 40px;
+  min-height: 200px;
+}
+
+#body img {
+  margin: 50px 10px 10px 10px;
+}
+
+#body input[type="text"] {
+  line-height: 32px;
+  width: 566px;
+  padding: 2px 6px 2px 6px;
+  border: 1px solid #d9d9d9;
+  font-size: 15px
+}
+
+#body input[type="text"]:hover {
+  border-color: #a0a0a0 #b9b9b9 #b9b9b9;
+}
+
+#body input[type="text"]:focus {
+  border: 1px solid #4d90fe;
+}
+
+#body input[type="submit"] {
+  color: #757575;
+  line-height: 27px;
+  background-color: #f2f2f2;
+  border-radius: 2px;
+  border: 1px solid #f2f2f2;
+  padding: 5px 15px 5px 15px;
+  margin: 15px 3px 10px 3px;
+  font-weight: bold;
+}
+
+#body input[type="submit"]:hover {
+  background-color: #f8f8f8;
+  border: 1px solid #c6c6c6;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  color: #222;
+}
+
+#digiskills {
+  font-size: small;
+  color: rgb(34,34,34);
+}
+
+#digiskills a {
+  text-decoration: none;
+}
+
+#digiskills a:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  line-height: 20px;
+  background-color: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+}
+
+.footer li {
+  list-style-type: none;
+}
+
+.footer a {
+  font: 12px;
+  color: #666;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.f_l {
+  float:left;
+  padding: 0 15px 15px 0;
+}
+
+.f_r {
+  float: right;
+  padding: 0 15px 15px 0;
+}
